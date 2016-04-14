@@ -1,6 +1,7 @@
 <resources>
-    <string name="app_name">DesignSupportLibrarySample</string>
-
+    <string name="app_name">DesignSupportLibrarySample</string>	
+	<string name="com_button_floatButton">FloatButton</string>
+	<string name="floatButton_activity_name">FloatButton</string>
     <string name="main_java">JavaCode</string>
     <string name="main_kotlin">KotCode</string>
 

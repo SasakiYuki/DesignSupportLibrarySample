@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">DesignSupportLibrarySample</string>
+    <string name="navigation_1">メイン</string>
+    <string name="navigation_2">ソーシャル</string>
+    <string name="navigation_3">プロモーション</string>
+    <string name="navigation_4">スター付き</string>
+    <string name="navigation_5">重要</string>
+    <string name="navigation_6">その他</string>
+    
+    <string name="com_name">UserName</string>
+    <string name="com_mail">example@gmail.com</string>
+
+    <string name="navigation_open">OPEN</string>
+    <string name="navigation_close">CLOSE</string>
+
 </resources>

@@ -1,5 +1,11 @@
 <resources>
     <string name="app_name">DesignSupportLibrarySample</string>
+
+    <string name="main_java">JavaCode</string>
+    <string name="main_kotlin">KotCode</string>
+
+    <string name="com_button_navigation">NavigationView</string>
+
     <string name="navigation_1">メイン</string>
     <string name="navigation_2">ソーシャル</string>
     <string name="navigation_3">プロモーション</string>

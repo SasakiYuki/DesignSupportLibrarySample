@@ -20,4 +20,10 @@
     <string name="navigation_open">OPEN</string>
     <string name="navigation_close">CLOSE</string>
 
+    <string name="com_button_inputLayout">InputLayout</string>
+    <string name="name_error_message">Enter your name</string>
+    <string name="mail_error_message">Enter a valid email address</string>
+    <string name="pass_error_message">Enter your password</string>
+    <string name="inputLayout_snac_message">Welcome</string>
+
 </resources>

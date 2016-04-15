@@ -28,6 +28,12 @@
                 android:layout_height="wrap_content"
                 android:onClick="onClick"
                 android:text="@string/com_button_floatButton" />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onClick"
+                android:text="@string/com_button_inputLayout"
+                android:id="@+id/button_java_inputLayout"/>
         </LinearLayout>
 
         <LinearLayout

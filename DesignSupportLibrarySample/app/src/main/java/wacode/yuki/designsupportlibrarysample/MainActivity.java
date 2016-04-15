@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import wacode.yuki.designsupportlibrarysample.javaTextInputLayout.javaTextInputLayout_Activity;
 import wacode.yuki.designsupportlibrarysample.kotCode.NavigationView.ktNavigationViewActivity;
 import wacode.yuki.designsupportlibrarysample.javaCode.FloatButton.javaFloatButton_Activity;
 
@@ -28,6 +29,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.button_java_floatButton:
                 intent = new Intent(this,javaFloatButton_Activity.class);
+                break;
+            case R.id.button_java_inputLayout:
+                intent = new Intent(this,javaTextInputLayout_Activity.class);
                 break;
             default:
                 intent = null;

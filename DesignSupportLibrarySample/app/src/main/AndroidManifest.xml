@@ -7,7 +7,7 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Design.NoActionBar">
+        android:theme="@style/Theme.Design.Light.NoActionBar">
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -23,9 +23,6 @@
             android:name=".javaTextInputLayout.javaTextInputLayout_Activity"
             android:screenOrientation="portrait" />
         <activity android:name=".kotCode.CoordinatorLayout.ktCoordinatorLayoutActivity" />
-        <activity
-            android:name=".kotCode.CoordinatorLayout.ktScrollingActivity"
-            android:label="@string/title_activity_kt_scrolling" />
         <activity android:name=".kotCode.InputTextLayout.ktInputTextActivity" />
         <activity android:name=".kotCode.Snackbar.ktSnackBarActivity" />
         <activity android:name=".kotCode.TabLayout.TabLayoutActivity" />

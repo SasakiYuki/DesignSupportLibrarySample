@@ -58,6 +58,46 @@
                     android:layout_height="wrap_content"
                     android:onClick="onClick"
                     android:text="@string/com_button_navigation" />
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/com_button_coordinator"
+                    android:onClick="onClick"
+                    android:id="@+id/button_kot_coordinator"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/com_button_inputLayout"
+                    android:onClick="onClick"
+                    android:id="@+id/button_kot_input"/>
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/com_button_snackbar"
+                    android:onClick="onClick"
+                    android:id="@+id/button_kot_snackbar"/>
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/com_button_fab"
+                    android:onClick="onClick"
+                    android:id="@+id/button_kot_button"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/com_button_tablayout"
+                    android:onClick="onClick"
+                    android:id="@+id/button_kot_tablayout"/>
             </LinearLayout>
         </LinearLayout>
     </LinearLayout>

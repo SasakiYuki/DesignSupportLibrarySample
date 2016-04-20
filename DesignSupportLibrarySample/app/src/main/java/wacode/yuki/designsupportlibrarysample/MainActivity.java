@@ -4,11 +4,15 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
 
 import wacode.yuki.designsupportlibrarysample.javaTextInputLayout.javaTextInputLayout_Activity;
+import wacode.yuki.designsupportlibrarysample.kotCode.CoordinatorLayout.ktCoordinatorLayoutActivity;
+import wacode.yuki.designsupportlibrarysample.kotCode.FloatActionButton.ktFABActivity;
+import wacode.yuki.designsupportlibrarysample.kotCode.InputTextLayout.ktInputTextActivity;
 import wacode.yuki.designsupportlibrarysample.kotCode.NavigationView.ktNavigationViewActivity;
 import wacode.yuki.designsupportlibrarysample.javaCode.FloatButton.javaFloatButton_Activity;
+import wacode.yuki.designsupportlibrarysample.kotCode.Snackbar.ktSnackBarActivity;
+import wacode.yuki.designsupportlibrarysample.kotCode.TabLayout.TabLayoutActivity;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener{
 
@@ -16,7 +20,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
     }
 
 
@@ -26,6 +29,21 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         switch (view.getId()){
             case R.id.button_kot_navigation:
                 intent = new Intent(this,ktNavigationViewActivity.class);
+                break;
+            case R.id.button_kot_coordinator:
+                intent = new Intent(this,ktCoordinatorLayoutActivity.class);
+                break;
+            case R.id.button_kot_input:
+                intent = new Intent(this, ktInputTextActivity.class);
+                break;
+            case R.id.button_kot_snackbar:
+                intent = new Intent(this,ktSnackBarActivity.class);
+                break;
+            case R.id.button_kot_tablayout:
+                intent = new Intent(this,TabLayoutActivity.class);
+                break;
+            case R.id.button_kot_button:
+                intent = new Intent(this,ktFABActivity.class);
                 break;
             case R.id.button_java_floatButton:
                 intent = new Intent(this,javaFloatButton_Activity.class);
@@ -38,4 +56,5 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         }
         startActivity(intent);
     }
+
 }

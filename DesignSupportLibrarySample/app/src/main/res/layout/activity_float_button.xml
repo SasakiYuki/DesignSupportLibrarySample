@@ -34,7 +34,8 @@
             android:src="@android:drawable/ic_menu_search"
             app:layout_anchor="@id/recyclerView"
             app:layout_anchorGravity="right|bottom"
-            app:layout_behavior="wacode.yuki.designsupportlibrarysample.javaCode.FloatButton.ScrollAwareFABBehavior" />
+            app:layout_behavior="wacode.yuki.designsupportlibrarysample.javaCode.FloatButton.ScrollAwareFABBehavior"
+            />
     </android.support.design.widget.CoordinatorLayout>
 
 </LinearLayout>

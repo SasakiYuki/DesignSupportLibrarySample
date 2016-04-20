@@ -15,11 +15,21 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".kotCode.NavigationView.ktNavigationViewActivity"></activity>
-		<activity android:name=".javaCode.FloatButton.javaFloatButton_Activity"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".javaTextInputLayout.javaTextInputLayout_Activity"
-            android:screenOrientation="portrait"/>
+        <activity android:name=".kotCode.NavigationView.ktNavigationViewActivity" />
+        <activity
+            android:name=".javaCode.FloatButton.javaFloatButton_Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".javaTextInputLayout.javaTextInputLayout_Activity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".kotCode.CoordinatorLayout.ktCoordinatorLayoutActivity" />
+        <activity
+            android:name=".kotCode.CoordinatorLayout.ktScrollingActivity"
+            android:label="@string/title_activity_kt_scrolling" />
+        <activity android:name=".kotCode.InputTextLayout.ktInputTextActivity" />
+        <activity android:name=".kotCode.Snackbar.ktSnackBarActivity" />
+        <activity android:name=".kotCode.TabLayout.TabLayoutActivity" />
+        <activity android:name=".kotCode.FloatActionButton.ktFABActivity"></activity>
     </application>
 
 </manifest>

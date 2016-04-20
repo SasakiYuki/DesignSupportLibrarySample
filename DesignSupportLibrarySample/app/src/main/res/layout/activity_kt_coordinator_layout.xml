@@ -1,49 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
-<wacode.yuki.designsupportlibrarysample.kotCode.CoordinatorLayout.Container.CoordinatorContainer xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:id="@+id/container"
-    tools:context="wacode.yuki.designsupportlibrarysample.kotCode.CoordinatorLayout.ktCoordinatorLayoutActivity">
-    <LinearLayout
+    android:fitsSystemWindows="true">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/app_bar"
         android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:fitsSystemWindows="true">
+
+        <android.support.design.widget.CollapsingToolbarLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fitsSystemWindows="true"
+            app:contentScrim="?attr/colorPrimary"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed">
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                app:layout_collapseMode="pin" />
+
+        </android.support.design.widget.CollapsingToolbarLayout>
+    </android.support.design.widget.AppBarLayout>
+
+    <wacode.yuki.designsupportlibrarysample.kotCode.com.Recycler.ktRecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"></wacode.yuki.designsupportlibrarysample.kotCode.com.Recycler.ktRecyclerView>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:id="@+id/buttonLayout">
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/button1"
-            android:text="@string/coordinator_enterAlways"/>
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/button2"
-            android:text="@string/coordinator_enterAlwaysCollapsed"/>
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/button3"
-            android:text="@string/coordinator_exitUntilCollapsed"/>
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/button4"/>
-    </LinearLayout>
-    <include
-        layout="@layout/layout_coordinator_euc"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:id="@+id/euc"></include>
-    <include
-        layout="@layout/layout_coordinator_ea"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:id="@+id/ea"></include>
-    <include
-        layout="@layout/layout_coordinator_eac"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:id="@+id/eac"></include>
-</wacode.yuki.designsupportlibrarysample.kotCode.CoordinatorLayout.Container.CoordinatorContainer>
+        android:layout_margin="@dimen/fab_margin"
+        android:src="@android:drawable/ic_dialog_email"
+        app:layout_anchor="@id/app_bar"
+        app:layout_anchorGravity="bottom|end" />
+
+</android.support.design.widget.CoordinatorLayout>
+

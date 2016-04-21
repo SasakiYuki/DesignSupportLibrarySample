@@ -6,6 +6,9 @@ import android.os.Bundle;
 import android.view.View;
 
 import wacode.yuki.designsupportlibrarysample.java.Animation.ViewPager.ViewPagerFloatButton_Activity;
+import wacode.yuki.designsupportlibrarysample.java.CoordinatorLayout.javaCoordinator_Activity;
+import wacode.yuki.designsupportlibrarysample.java.SnackBar.javaSnackBar_Activity;
+import wacode.yuki.designsupportlibrarysample.java.TabLayout.TabLayout_Activity;
 import wacode.yuki.designsupportlibrarysample.java.TextInputLayout.javaTextInputLayout_Activity;
 import wacode.yuki.designsupportlibrarysample.kotCode.CoordinatorLayout.ktCoordinatorLayoutActivity;
 import wacode.yuki.designsupportlibrarysample.kotCode.FloatActionButton.ktFABActivity;
@@ -49,12 +52,20 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.button_java_floatButton:
                 intent = new Intent(this,javaFloatButton_Activity.class);
                 break;
-
             case R.id.button_java_inputLayout:
                 intent = new Intent(this,javaTextInputLayout_Activity.class);
                 break;
             case R.id.button_java_viewPager:
                 intent = new Intent(this, ViewPagerFloatButton_Activity.class);
+                break;
+            case R.id.button_java_snackBar:
+                intent = new Intent(this,javaSnackBar_Activity.class);
+                break;
+            case R.id.button_java_tabLayout:
+                intent = new Intent(this, TabLayout_Activity.class);
+                break;
+            case R.id.button_java_coordinatorLayout:
+                intent = new Intent(this,javaCoordinator_Activity.class);
                 break;
             default:
                 intent = null;

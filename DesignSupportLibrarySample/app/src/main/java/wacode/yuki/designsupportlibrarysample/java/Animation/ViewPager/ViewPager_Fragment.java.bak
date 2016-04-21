@@ -32,7 +32,7 @@ public class ViewPager_Fragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         Bundle args = getArguments();
         mMode = args.getInt(ViewPagerFloatButton_Activity.KEY_FRAGMENT_MODE);
-        return inflater.inflate(R.layout.fragment_fab_viewpager, container, false);
+        return inflater.inflate(R.layout.fragment_viewpager, container, false);
     }
 
     @Override

@@ -27,7 +27,12 @@
             android:screenOrientation="portrait"/>
         <activity android:name=".java.TextInputLayout.javaTextInputLayout_Activity"
             android:screenOrientation="portrait"/>
-
+        <activity android:name=".java.SnackBar.javaSnackBar_Activity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".java.TabLayout.TabLayout_Activity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".java.CoordinatorLayout.javaCoordinator_Activity"
+            android:screenOrientation="portrait"/>
     </application>
 
 </manifest>

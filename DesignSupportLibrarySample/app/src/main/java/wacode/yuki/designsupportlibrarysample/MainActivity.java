@@ -7,6 +7,7 @@ import android.view.View;
 
 import wacode.yuki.designsupportlibrarysample.java.Animation.ViewPager.ViewPagerFloatButton_Activity;
 import wacode.yuki.designsupportlibrarysample.java.CoordinatorLayout.javaCoordinator_Activity;
+import wacode.yuki.designsupportlibrarysample.java.NavigationView.javaNavigationView_Activity;
 import wacode.yuki.designsupportlibrarysample.java.SnackBar.javaSnackBar_Activity;
 import wacode.yuki.designsupportlibrarysample.java.TabLayout.TabLayout_Activity;
 import wacode.yuki.designsupportlibrarysample.java.TextInputLayout.javaTextInputLayout_Activity;
@@ -66,6 +67,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.button_java_coordinatorLayout:
                 intent = new Intent(this,javaCoordinator_Activity.class);
+                break;
+            case R.id.button_java_NavigationView:
+                intent =  new Intent(this, javaNavigationView_Activity.class);
                 break;
             default:
                 intent = null;

@@ -1,31 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="160dp"
+    android:layout_marginTop="25dp"
     android:background="@mipmap/background"
+    android:orientation="vertical"
     android:paddingLeft="@dimen/com_space_large"
     android:paddingTop="@dimen/com_space_large">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical"
+        android:layout_marginBottom="@dimen/drawer_header_size_3x2"
         android:gravity="bottom"
-        android:layout_marginBottom="@dimen/drawer_header_size_3x2">
+        android:orientation="vertical">
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/com_name"
-            android:textSize="@dimen/com_text_normal"
-            android:textColor="@color/color_white"/>
+            android:textColor="@color/color_white"
+            android:textSize="@dimen/com_text_normal" />
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/com_mail"
-            android:textSize="@dimen/com_text_small"
-            android:textColor="@color/color_white"/>
-        </LinearLayout>
+            android:textColor="@color/color_white"
+            android:textSize="@dimen/com_text_small" />
+    </LinearLayout>
 
 </LinearLayout>

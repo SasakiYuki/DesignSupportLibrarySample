@@ -76,6 +76,19 @@
                     android:text="@string/com_button_coordinator" />
             </LinearLayout>
 
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button_java_NavigationView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="onClick"
+                    android:text="@string/com_button_navigation" />
+            </LinearLayout>
+
         </LinearLayout>
 
         <LinearLayout

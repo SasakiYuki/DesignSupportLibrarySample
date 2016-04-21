@@ -16,17 +16,18 @@
             </intent-filter>
         </activity>
         <activity android:name=".kotCode.NavigationView.ktNavigationViewActivity" />
-        <activity
-            android:name=".javaCode.FloatButton.javaFloatButton_Activity"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".javaTextInputLayout.javaTextInputLayout_Activity"
-            android:screenOrientation="portrait" />
         <activity android:name=".kotCode.CoordinatorLayout.ktCoordinatorLayoutActivity" />
         <activity android:name=".kotCode.InputTextLayout.ktInputTextActivity" />
         <activity android:name=".kotCode.Snackbar.ktSnackBarActivity" />
         <activity android:name=".kotCode.TabLayout.TabLayoutActivity" />
         <activity android:name=".kotCode.FloatActionButton.ktFABActivity"></activity>
+        <activity android:name=".java.Animation.ViewPager.ViewPagerFloatButton_Activity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".java.FloatingActionButton.javaFloatButton_Activity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".java.TextInputLayout.javaTextInputLayout_Activity"
+            android:screenOrientation="portrait"/>
+
     </application>
 
 </manifest>

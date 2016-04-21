@@ -1,4 +1,4 @@
-package wacode.yuki.designsupportlibrarysample.javaTextInputLayout;
+package wacode.yuki.designsupportlibrarysample.java.TextInputLayout;
 
 import android.os.Bundle;
 import android.support.design.widget.Snackbar;

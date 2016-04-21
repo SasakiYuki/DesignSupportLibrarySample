@@ -1,4 +1,4 @@
-package wacode.yuki.designsupportlibrarysample.javaCode.FloatButton;
+package wacode.yuki.designsupportlibrarysample.java.FloatingActionButton;
 
 import android.content.Context;
 import android.support.design.widget.CoordinatorLayout;

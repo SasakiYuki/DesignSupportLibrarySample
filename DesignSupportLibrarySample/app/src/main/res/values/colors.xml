@@ -4,4 +4,7 @@
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
     <color name="color_white">#fff</color>
+    <color name="color_floatButton_blue">#4885ef</color>
+    <color name="color_floatButton_red">#cf3439</color>
+    <color name="color_floatButton_green">#1bb15b</color>
 </resources>

@@ -29,6 +29,6 @@
         android:layout_gravity="end|bottom"
         android:layout_margin="@dimen/margin_size_16"
         android:src="@android:drawable/ic_menu_search"
-        app:layout_behavior="wacode.yuki.designsupportlibrarysample.javaCode.FloatButton.ScrollAwareFABBehavior" />
+        app:layout_behavior="wacode.yuki.designsupportlibrarysample.java.FloatingActionButton.ScrollAwareFABBehavior" />
 
 </android.support.design.widget.CoordinatorLayout>

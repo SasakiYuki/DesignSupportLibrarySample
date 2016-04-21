@@ -5,12 +5,13 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
-import wacode.yuki.designsupportlibrarysample.javaTextInputLayout.javaTextInputLayout_Activity;
+import wacode.yuki.designsupportlibrarysample.java.Animation.ViewPager.ViewPagerFloatButton_Activity;
+import wacode.yuki.designsupportlibrarysample.java.TextInputLayout.javaTextInputLayout_Activity;
 import wacode.yuki.designsupportlibrarysample.kotCode.CoordinatorLayout.ktCoordinatorLayoutActivity;
 import wacode.yuki.designsupportlibrarysample.kotCode.FloatActionButton.ktFABActivity;
 import wacode.yuki.designsupportlibrarysample.kotCode.InputTextLayout.ktInputTextActivity;
 import wacode.yuki.designsupportlibrarysample.kotCode.NavigationView.ktNavigationViewActivity;
-import wacode.yuki.designsupportlibrarysample.javaCode.FloatButton.javaFloatButton_Activity;
+import wacode.yuki.designsupportlibrarysample.java.FloatingActionButton.javaFloatButton_Activity;
 import wacode.yuki.designsupportlibrarysample.kotCode.Snackbar.ktSnackBarActivity;
 import wacode.yuki.designsupportlibrarysample.kotCode.TabLayout.TabLayoutActivity;
 
@@ -48,8 +49,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.button_java_floatButton:
                 intent = new Intent(this,javaFloatButton_Activity.class);
                 break;
+
             case R.id.button_java_inputLayout:
                 intent = new Intent(this,javaTextInputLayout_Activity.class);
+                break;
+            case R.id.button_java_viewPager:
+                intent = new Intent(this, ViewPagerFloatButton_Activity.class);
                 break;
             default:
                 intent = null;

@@ -11,6 +11,7 @@
     <string name="com_button_snackbar">Snackbar</string>
     <string name="com_button_fab">FAB</string>
     <string name="com_button_tablayout">tabLayout</string>
+    <string name="com_button_viewpager">ViewPager</string>
 
     <string name="navigation_1">メイン</string>
     <string name="navigation_2">ソーシャル</string>

@@ -28,12 +28,20 @@
                 android:layout_height="wrap_content"
                 android:onClick="onClick"
                 android:text="@string/com_button_floatButton" />
+
             <Button
+                android:id="@+id/button_java_inputLayout"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="onClick"
-                android:text="@string/com_button_inputLayout"
-                android:id="@+id/button_java_inputLayout"/>
+                android:text="@string/com_button_inputLayout" />
+
+            <Button
+                android:id="@+id/button_java_viewPager"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onClick"
+                android:text="@string/com_button_viewpager" />
         </LinearLayout>
 
         <LinearLayout
@@ -58,46 +66,53 @@
                     android:layout_height="wrap_content"
                     android:onClick="onClick"
                     android:text="@string/com_button_navigation" />
+
                 <Button
+                    android:id="@+id/button_kot_coordinator"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/com_button_coordinator"
                     android:onClick="onClick"
-                    android:id="@+id/button_kot_coordinator"/>
+                    android:text="@string/com_button_coordinator" />
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
+
                 <Button
+                    android:id="@+id/button_kot_input"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/com_button_inputLayout"
                     android:onClick="onClick"
-                    android:id="@+id/button_kot_input"/>
+                    android:text="@string/com_button_inputLayout" />
+
                 <Button
+                    android:id="@+id/button_kot_snackbar"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/com_button_snackbar"
                     android:onClick="onClick"
-                    android:id="@+id/button_kot_snackbar"/>
+                    android:text="@string/com_button_snackbar" />
+
                 <Button
+                    android:id="@+id/button_kot_button"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/com_button_fab"
                     android:onClick="onClick"
-                    android:id="@+id/button_kot_button"/>
+                    android:text="@string/com_button_fab" />
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
+
                 <Button
+                    android:id="@+id/button_kot_tablayout"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/com_button_tablayout"
                     android:onClick="onClick"
-                    android:id="@+id/button_kot_tablayout"/>
+                    android:text="@string/com_button_tablayout" />
             </LinearLayout>
         </LinearLayout>
     </LinearLayout>

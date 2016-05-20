@@ -7,4 +7,10 @@
     <color name="color_floatButton_blue">#4885ef</color>
     <color name="color_floatButton_red">#cf3439</color>
     <color name="color_floatButton_green">#1bb15b</color>
+    <color name="color_Amber">#FFC107</color>
+    <color name="color_LightGreen">#69F0AE</color>
+    <color name="color_Cyan">#18FFFF</color>
+    <color name="color_LightBlue">#00B0FF</color>
+    <color name="color_Pink">#F06292</color>
+    <color name="font_1a1a1a">#1a1a1a</color>
 </resources>

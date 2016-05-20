@@ -41,6 +41,25 @@
     <string name="input_error_mail">メールアドレス欄が空です</string>
     <string name="input_error_mail2">メールアドレスの形式が正しくありません</string>
 
+    <string-array name="javaTitle">
+        <item>FloatButton</item>
+        <item>NavigationView</item>
+        <item>Coordinator</item>
+        <item>InputLayout</item>
+        <item>Snackbar</item>
+        <item>TabLayout</item>
+        <item>ViewPager</item>
+    </string-array>
+
+    <string-array name="kotTitle">
+        <item>FloatButton</item>
+        <item>NavigationView</item>
+        <item>Coordinator</item>
+        <item>InputLayout</item>
+        <item>Snackbar</item>
+        <item>TabLayout</item>
+    </string-array>
+
     <string-array name="dummy">
         <item>北海道</item>
         <item>青森県</item>
